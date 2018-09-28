@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de Tarefas</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <div class="tarefa-composer__form-group">
+            <label for="tarefaComposerInput"  class="tarefa-composer__label">Lista de tarefas</label>
+        </div>
+            <textarea class="tarefa-composer__input" id="tarefaComposerInput" name="tarefaComposerInput" placeholder="Escreva uma tarefa aqui"></textarea>
+            <button class="button tarefa-composer__button">Add</button>
+        </div>
+        <div class="lista-tarefas">
+            <div class="lista-tarefas__checkall-button">
+                <div class="lista-tarefas__check-all">
+                    <!-- <button class="button tarefa-select__button">Selecionar todas</button></div> -->
+        <button class="lista-tarefas__delete-checked-button">Marcar todas</button>
+        <button class="lista-tarefas__delete-all-button">Apagar todas</button>
+        </div> 
+    </main>
+        <script src="script/script.js"></script>
+</body>
+
+</html>
